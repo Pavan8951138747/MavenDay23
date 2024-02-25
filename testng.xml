@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <parameter name="grid" value="yes"></parameter>
+	  <parameter name="grid_url" value="https://oauth-pavan97kumarsn-c8eda:b62c2845-4e5a-4829-a7e4-fd5903db0c58@ondemand.eu-central-1.saucelabs.com:443/wd/hub"></parameter>
+	   <parameter name="browser" value="chrome"></parameter>
+	   <parameter name="appurl" value="https://www.google.com"></parameter>
+	   <parameter name="ito" value="10"></parameter>
+	   <parameter name="eto" value="7"></parameter>
+    <packages>
+      <package name="script"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
